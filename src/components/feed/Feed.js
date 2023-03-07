@@ -4,6 +4,7 @@ import EventIcon from '@mui/icons-material/Event';
 import ArticleIcon from '@mui/icons-material/Article';
 import SmartDisplayIcon from '@mui/icons-material/SmartDisplay';
 import InputOption from './InputOption';
+import Post from './Post';
 import './Feed.css';
 
 const Feed =()=>{
@@ -24,6 +25,7 @@ const Feed =()=>{
                     <InputOption Icon={ArticleIcon} title='Write article' color='#7FC15E'/>
                 </div>
             </div>
+            <Post name='Joaquin Martinez Maneiro' description='Frontend Developer' message='This is my first post'/>
         </div>
     );
 };
