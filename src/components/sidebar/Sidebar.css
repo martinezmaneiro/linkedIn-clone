@@ -1,11 +1,11 @@
 .sidebar{
     top: 80px;
     position: sticky;
-    flex: 0.2;
+    flex: 0.12;
     border-radius: 10px;
     text-align: center;
     height: fit-content;
-    min-width: fit-content;
+    width: fit-content;
     color: rgba(0,0,0,0.9);
 }
 .sidebar-top{
